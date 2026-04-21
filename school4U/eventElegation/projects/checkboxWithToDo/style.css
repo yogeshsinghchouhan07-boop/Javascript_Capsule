@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.listItem{
+    background-color: aliceblue;
+    font-size: x-large;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 50px;
+    background-color: blue;
+}

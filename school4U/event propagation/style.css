@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.grand-parent{
+    background-color: rgb(14, 61, 155);
+    padding: 100pX;
+}
+.parent{
+    background-color: aqua;
+    padding: 60px;
+}
+.child{
+    background-color: chartreuse;
+    padding: 50px;
+}

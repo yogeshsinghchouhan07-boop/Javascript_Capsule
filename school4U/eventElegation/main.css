@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 7rem;
+    flex-wrap: wrap;
+    padding: 150px 150px ;  
+   
+   
+     
+}
+.box{
+    background-color: white;
+    font-size: 60px;
+    border-radius: 50%;
+    width:120px;
+    height: 120px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+    
+
+}

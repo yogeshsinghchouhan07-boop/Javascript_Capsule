@@ -1,0 +1,63 @@
+        *{padding: 0px;
+            margin:0px;
+            box-sizing: border-box ;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+
+        }
+        .btn{
+            margin:50px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: aqua;
+            box-shadow: 7px 5px 5px ;
+        }
+        .modalContainer{
+            background-color: rgba(18, 139, 46, 0.319);
+            opacity: 0.8;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-width: 100px;
+            padding: 50px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            display:none;
+           
+        }
+        .modalContent{
+            align-items: start;      
+             background-color:rgb(240, 215, 215) ;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            padding: 50px;
+            border-radius: 25px;
+            border: solid greenyellow;
+            box-shadow: 2px 2px  5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .closeBtn{
+           font-size: medium;
+           padding: 10px;
+           border-radius: 8px;
+           
+           
+        }
+        .closeBtn:hover{
+          background-color: rgb(215, 205, 129);
+        }
+        .logo{
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+           
+        }
